@@ -15,33 +15,31 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:textAlignment="center"
         android:layout_marginHorizontal="10dp"
         android:layout_marginVertical="10dp"
-        android:text="Hello World!"
         android:background="#28A92A"
-        android:textColor="#F3F2EEEE"
-        />
+        android:padding="10dp"
+        android:text="Hello World!"
+        android:textAlignment="center"
+        android:textColor="#212121" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:textAlignment="center"
         android:layout_marginHorizontal="10dp"
-        android:text="Ingrese un numero entero"
         android:background="#28A92A"
-        android:textColor="#F3F2EEEE"
-        />
+        android:padding="10dp"
+        android:text="Ingrese un numero entero"
+        android:textAlignment="center"
+        android:textColor="#212121" />
 
     <EditText
         android:id="@+id/numeroUsuario"
-        android:hint="80"
-        android:textColor="@color/black"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
+        android:layout_height="wrap_content"
+        android:hint="80"
+        android:minHeight="48dp"
+        android:textColorHint="@color/black" />
     <Button
         android:id="@+id/btnCalcular"
         android:text="Calcular"
